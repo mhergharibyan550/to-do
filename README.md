@@ -9,12 +9,10 @@ Backend's port: 5000
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
-Instructions on how to set up the project locally. For example:
+Instructions on how to set up the project locally.
 
 ```bash
 1. git clone https://github.com/mhergharibyan550/to-do.git
