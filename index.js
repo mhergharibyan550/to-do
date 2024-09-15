@@ -7,8 +7,7 @@ const jsonParser = express.json({ extended: true });
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const URI =
-  "mongodb+srv://mhergharibyan550:MGHMONGO@cluster0.opvzugn.mongodb.net/todo?retryWrites=true&w=majority&appName=Cluster0";
+const URI = process.env.MONGO_DB_URI;
 
 app.use(jsonParser);
 app.use("/api/auth", require("./routes/auth.route.js"));
